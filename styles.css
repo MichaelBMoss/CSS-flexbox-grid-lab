@@ -24,7 +24,6 @@ body {
     grid-column-start: 1;
     display: grid;
     grid-template-rows: 78% 22%;
-
 }
 
 #picture-online-row {
