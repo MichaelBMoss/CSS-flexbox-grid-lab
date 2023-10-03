@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #0f5f60;
+}
+
+#card {
+    display: grid;
+    width: 500px;
+    grid-template-columns: 40% 60%;
+    height: 40%
+}
+
+#picture-box {
+    grid-column-start: 1;
+    display: grid;
+    grid-template-rows: 75% 25%;
+
+}
+
+#picture-row {
+    grid-row-start: 1;
+    background-color: white;
+}
+
+#comms-row {
+    grid-row-start: 2;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#phone-box {
+    grid-column-start: 1;
+    background-color: #66d189;
+}
+
+#messages-box {
+    grid-column-start: 2;
+    background-color: #5abd7c;
+}
+
+
+#info-box {
+    grid-column-start: 2;
+    background-color: #f3f3f3
+    ;
+}
