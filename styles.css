@@ -17,19 +17,42 @@ body {
     display: grid;
     width: 500px;
     grid-template-columns: 40% 60%;
-    height: 40%
+    height: 45%
 }
 
 #picture-box {
     grid-column-start: 1;
     display: grid;
-    grid-template-rows: 75% 25%;
+    grid-template-rows: 78% 22%;
 
 }
 
-#picture-row {
+#picture-online-row {
     grid-row-start: 1;
     background-color: white;
+    display: grid;
+    grid-template-rows: 15% 85%;
+}
+
+#online-row {
+    grid-row-start: 1;
+}
+
+#online-par {
+    margin-left: 7%;
+    color: grey;
+    font-size: 11px;
+}
+
+#picture-row {
+    grid-row-start: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#face-img {
+    width: 55%;
 }
 
 #comms-row {
@@ -41,16 +64,57 @@ body {
 #phone-box {
     grid-column-start: 1;
     background-color: #66d189;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #messages-box {
     grid-column-start: 2;
     background-color: #5abd7c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 #info-box {
     grid-column-start: 2;
-    background-color: #f3f3f3
-    ;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inner-info-box {
+    width: 90%;
+}
+
+#name {
+    font-size: 25px;
+    margin-bottom: 4px;
+}
+
+#stars-img {
+    width: 45%;
+    margin-bottom: -7px;
+}
+
+#job {
+    font-size: 18px;
+}
+
+#services {
+    color: grey;
+    border-left: 3px; 
+    border-left-style: solid;
+    border-left-color: #64c081;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+
+#price {
+    font-size: 14px;
 }
